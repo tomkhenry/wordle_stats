@@ -1,0 +1,2 @@
+include src/wordlepoints/*
+include src/wordlepoints/*.txt

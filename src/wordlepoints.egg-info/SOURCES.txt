@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/wordlepoints/__init__.py
+src/wordlepoints/wordle_stats.py
+src/wordlepoints/wordle_words.txt
+src/wordlepoints.egg-info/PKG-INFO
+src/wordlepoints.egg-info/SOURCES.txt
+src/wordlepoints.egg-info/dependency_links.txt
+src/wordlepoints.egg-info/top_level.txt

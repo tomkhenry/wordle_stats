@@ -38,8 +38,9 @@ def update_word_list(inword, notin, current, words):
 
 
 def wordle_helper(guess_list, winning_word):
+    import pathlib
     #read in the possible five letter words
-    word_file = open("wordle_words.txt", "r")
+    word_file = open(str(pathlib.Path(__file__).parent.absolute()) + "/wordle_words.txt", "r")
     word_raw_txt = word_file.read()
     words = set((word_raw_txt.split("\n"))[:-1])
      
@@ -79,7 +80,7 @@ def wordle_helper(guess_list, winning_word):
             break
 
 
-if __name__ == '__main__':
+def main():
     while(1):
         winning_word = input("Enter the winning word of the day: ")
         if len(winning_word) != 5:
@@ -98,3 +99,5 @@ if __name__ == '__main__':
         if guess == winning_word:
             break
     wordle_helper(guesses, winning_word)
+
+main()
