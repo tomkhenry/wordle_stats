@@ -6,7 +6,7 @@ Wordle Stats is a score generator that takes challenging your friends in Wordle 
 
 ## Installation
 ```bash
-pip install wordlepoints
+pip install wordlepoints==0.0.10
 ```
 
 And then to run, simply input:
