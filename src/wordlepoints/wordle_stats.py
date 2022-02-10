@@ -75,7 +75,7 @@ def wordle_helper(guess_list, winning_word):
 
         if '' not in current:
             print(f"\n{bcolors.HEADER}Congratulations! You solved this in {turn} rounds!{bcolors.ENDC}\n")
-            total_score += 100 * (6-turn)
+            total_score += 200 * (6-turn)
             print(f'Your Wordle performance score is: {bcolors.OKGREEN}{bcolors.BOLD}{total_score:.2f}{bcolors.ENDC}')
             break
 
