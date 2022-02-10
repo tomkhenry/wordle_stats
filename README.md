@@ -11,7 +11,7 @@ pip install wordlepoints==0.0.10
 
 And then to run, simply input:
 ```bash
-python -m wordlepoints.wordle_stats
+python3 -m wordlepoints.wordle_stats
 ```
 ## Usage
 The following gif is an example of the usage in a python shell:
